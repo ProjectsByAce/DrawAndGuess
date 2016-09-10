@@ -1,0 +1,61 @@
+body
+{
+    background: #ccd6e1;
+    font-family: arial,serif;
+
+}
+#game
+{
+    width: 500px;
+    margin:0 auto;
+}
+#game h1
+{
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+}
+#drawing-pad
+{
+    border: 10px solid #fffeff;
+    background: #f1f3ef;
+    box-shadow: 0 3px 5px #333;
+    cursor: url("http://100.0.101.21/BkStatic/images/mypen.cur"),auto;
+}
+#chat-history
+{
+    list-style: none;
+    padding: 0;
+}
+#chat-history li
+{
+    border-bottom: 1px dashed rgba(20,20,20,.2);
+    margin: 10px 0;
+}
+#red
+{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+#red:hover{
+    -webkit-box-shadow: 0 0 40px #aaa;
+}
+#green
+{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+#green:hover{
+    -webkit-box-shadow: 0 0 40px #aaa;
+}
+#yellow
+{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+}
+#yellow:hover{
+    -webkit-box-shadow: 0 0 40px #aaa;
+}
